@@ -31,8 +31,6 @@ para conseguir compará-la com as outras categorias. O recomendado é que
 as categorias sejam 0, 1, 2, …, k, sendo k a quantidade de categorias da
 variável resposta menos um. Assim, a categoria 0 será a de referência.
 
-Para previsão da variável resposta é utilizada a fórmula:
-
 # Exemplos no cotidiano
 
   - Pode ser usada para prever qual melhor plano de saúde, odontológico

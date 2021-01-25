@@ -27,25 +27,6 @@ Temos também a Regressão Logística que é usada quando a variável resposta �
 
 A *Regressão Logística Multinomial* é similar à Regressão Logística, a diferença é que para utilizá-la a variável resposta deve ser qualitativa nominal com três ou mais categorias. Entre as categorias deve-se escolher uma de referência, assim como na regressão logística binária, para conseguir compará-la com as outras categorias. O recomendado é que as categorias sejam 0, 1, 2, ..., k, sendo k a quantidade de categorias da variável resposta menos um. Assim, a categoria 0 será a de referência.
 
-Para previsão da variável resposta é utilizada a fórmula:
-
-\begin{equation}
-g_{k} \equiv g_{k}(\mathbf{x}) = \ln \left[\frac{\mathbb{P}(Y=k \mid \mathbf{x})}{\mathbb{P}(Y=0 \mid \mathbf{x})}\right]
-\end{equation}
-\begin{equation}
-= \beta_{k 0} x_{k 0}+\beta_{k 1} x_{1}+\cdots+\beta_{k r} x_{r}
-\end{equation}
-\begin{equation}
-= x^{\prime} B_{k}, \text { para } k \in\{0, \cdots, q\}
-\end{equation}
-\begin{equation}
-\text {onde } B_{k}=\left(\beta_{k 0}, \cdots, \beta_{k r}\right)^{\prime} \text { e } x_{k 0}=1
-\end{equation}
-\begin{equation}
-\text {e } {r} \text { é a quantidade de variáveis independentes.}
-\end{equation}
-
-
 # Exemplos no cotidiano
 
 * Pode ser usada para prever qual melhor plano de saúde, odontológico etc. Dentre três ou mais planos;
