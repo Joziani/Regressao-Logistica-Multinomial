@@ -1,6 +1,6 @@
 
 
-## Pacoted ---------------------------------------------------------------------
+## Pacotes ---------------------------------------------------------------------
 
 if(!require(tidyverse)){install.packages('tidyverse'); require(tidyverse)} 
 if(!require(VGAM)){install.packages('VGAM'); require(VGAM)} 
